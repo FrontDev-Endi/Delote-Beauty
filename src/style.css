@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=EB+Garamond:wght@400..800&display=swap');
+@import './assets/reset.css';
+
+body {
+  font-family: 'Cormorant Garamond', serif;
+  background: #111;
+  color: #fff;
+}
+:root{
+  --index: calc(1vw + 1vh);
+}
