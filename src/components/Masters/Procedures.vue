@@ -6,32 +6,32 @@ import Procedure from "./Procedure.vue";
   <h1 class="title">Our Masters</h1>
   <div class="procedures">
     <Procedure
-      image="/public/img/Elena.png"
+      image="/img/Elena.png"
       title="Amelia"
       description="Makeup artist"
     />
     <Procedure
-      image="/public/img/Elena 2.png"
+      image="/img/Elena 2.png"
       title="Amelia"
       description="Makeup artist"
     />
     <Procedure
-      image="/public/img/Elena 3.png"
+      image="/img/Elena 3.png"
       title="Amelia"
       description="Makeup artist"
     />
     <Procedure
-      image="/public/img/Elena 4.png"
+      image="/img/Elena 4.png"
       title="Amelia"
       description="Makeup artist"
     />
     <Procedure
-      image="/public/img/Elena 5.png"
+      image="/img/Elena 5.png"
       title="Amelia"
       description="Makeup artist"
     />
     <Procedure
-      image="/public/img/Elena 6.png"
+      image="/img/Elena 6.png"
       title="Amelia"
       description="Makeup artist"
     />
