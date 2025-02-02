@@ -1,14 +1,14 @@
 <template>
   <div class="bloc-one">
-    <img src="/public/img/work-9.png" alt="image">
-    <img src="/public/img/work-6.png" alt="image">
-    <img src="/public/img/work-3.png" alt="image">
-    <img src="/public/img/work-8.png" alt="image">
-    <img src="/public/img/hairdress 8.png" alt="image">
-    <img src="/public/img/work-2.png" alt="image">
-    <img src="/public/img/work-7.png" alt="image">
-    <img src="/public/img/work-4.png" alt="image">
-    <img src="/public/img/hairdress 9.png" alt="image">
+    <img src="/img/work-9.png" alt="image">
+    <img src="/img/work-6.png" alt="image">
+    <img src="/img/work-3.png" alt="image">
+    <img src="/img/work-8.png" alt="image">
+    <img src="/img/hairdress 8.png" alt="image">
+    <img src="/img/work-2.png" alt="image">
+    <img src="/img/work-7.png" alt="image">
+    <img src="/img/work-4.png" alt="image">
+    <img src="/img/hairdress 9.png" alt="image">
   </div>
 </template>
 

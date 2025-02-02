@@ -1,15 +1,15 @@
 <template>
   <div class="bloc-two">
     <div class="bloc-one">
-      <img src="/public/img/hairdress 1.jpg" alt="image" />
-      <img src="/public/img/hairdress 8.png" alt="image" />
-      <img src="/public/img/hairdress 2.jpg" alt="image" />
-      <img src="/public/img/hairdress 3.jpg" alt="image" />
-      <img src="/public/img/hairdress 4.jpg" alt="image" />
-      <img src="/public/img/hairdress 5.jpg" alt="image" />
-      <img src="/public/img/hairdress 9.png" alt="image" />
-      <img src="/public/img/hairdress 6.jpg" alt="image" />
-      <img src="/public/img/hairdress 7.jpg" alt="image" />
+      <img src="/img/hairdress 1.jpg" alt="image" />
+      <img src="/img/hairdress 8.png" alt="image" />
+      <img src="/img/hairdress 2.jpg" alt="image" />
+      <img src="/img/hairdress 3.jpg" alt="image" />
+      <img src="/img/hairdress 4.jpg" alt="image" />
+      <img src="/img/hairdress 5.jpg" alt="image" />
+      <img src="/img/hairdress 9.png" alt="image" />
+      <img src="/img/hairdress 6.jpg" alt="image" />
+      <img src="/img/hairdress 7.jpg" alt="image" />
     </div>
   </div>
 </template>

@@ -1,15 +1,15 @@
 <template>
   <div class="bloc-two">
     <div class="bloc-one">
-      <img src="/public/img/Manicure1.jpg" alt="image" />
-      <img src="/public/img/2.jpg" alt="image" />
-      <img src="/public/img/Manicure 3.jpg" alt="image" />
-      <img src="/public/img/Manicure 4.jpg" alt="image" />
-      <img src="/public/img/Manicure 5.jpg" alt="image" />
-      <img src="/public/img/Manicure 6.jpg" alt="image" />
-      <img src="/public/img/Manicure 7.jpg" alt="image" />
-      <img src="/public/img/work-3.png" alt="image" />
-      <img src="/public/img/work-7.png" alt="image" />
+      <img src="/img/Manicure1.jpg" alt="image" />
+      <img src="/img/2.jpg" alt="image" />
+      <img src="/img/Manicure 3.jpg" alt="image" />
+      <img src="/img/Manicure 4.jpg" alt="image" />
+      <img src="/img/Manicure 5.jpg" alt="image" />
+      <img src="/img/Manicure 6.jpg" alt="image" />
+      <img src="/img/Manicure 7.jpg" alt="image" />
+      <img src="/img/work-3.png" alt="image" />
+      <img src="/img/work-7.png" alt="image" />
     </div>
   </div>
 </template>

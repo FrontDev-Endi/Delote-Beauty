@@ -4,12 +4,12 @@
 
 <template>
   <div id="procedures">
-    <Procedure image="/public/img/curler.png" title="Hairdressing services" />
-    <Procedure image="/public/img/manicure.png" title="Manicure" />
-    <Procedure image="/public/img/Pedicure.png" title="Pedicure" />
-    <Procedure image="/public/img/mask.png" title="Cosmetology" />
-    <Procedure image="/public/img/cream.png" title="Body aesthetician" />
-    <Procedure image="/public/img/visage.png" title="Visage" />
+    <Procedure image="/img/curler.png" title="Hairdressing services" />
+    <Procedure image="/img/manicure.png" title="Manicure" />
+    <Procedure image="/img/Pedicure.png" title="Pedicure" />
+    <Procedure image="/img/mask.png" title="Cosmetology" />
+    <Procedure image="/img/cream.png" title="Body aesthetician" />
+    <Procedure image="/img/visage.png" title="Visage" />
   </div>
 </template>
 

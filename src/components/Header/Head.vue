@@ -28,7 +28,7 @@ onUnmounted(() => {
   <div
     class="head"
     :style="{
-      backgroundImage: 'url(\'/public/img/bgc.png\')',
+      backgroundImage: 'url(\'/img/bgc.png\')',
       transform: `scale(${backgroundScale})`,
       opacity: backgroundScale > 1.8 ? 0 : 1,
     }"
