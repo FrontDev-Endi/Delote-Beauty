@@ -29,7 +29,7 @@
         <a href="#" class="menu__link"> Price </a>
       </router-link>
       <li class="menu__item">
-        <a href="#working" class="menu__link"> Our works </a>
+        <a href="#" class="menu__link"> Our works </a>
       </li>
       <router-link to="/contacts" class="menu__item">
         <a href="#" class="menu__link active"> Contacts </a>
