@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=EB+Garamond:wght@400..800&display=swap');
 @import './assets/reset.css';
 
+*{
+  /* outline: 4px solid red; */
+}
+
 body {
   font-family: 'Cormorant Garamond', serif;
   background: #111;

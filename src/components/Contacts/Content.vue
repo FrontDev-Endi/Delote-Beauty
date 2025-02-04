@@ -38,6 +38,7 @@
 <style scoped>
 .content {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
   .title {
@@ -84,6 +85,7 @@
     .operating-mode {
       display: flex;
       flex-direction: column;
+      text-align: center;
       gap: 15px;
       h1 {
         font-weight: 700;
@@ -114,6 +116,13 @@
     .map {
       width: calc(var(--index) * 26);
       height: calc(var(--index) * 20);
+    }
+    .footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: calc(var(--index) * 4.5);
     }
   }
 }
