@@ -1,8 +1,8 @@
 <script setup>
- const addtoclass = () => {
-    const Menu = document.querySelector(".menu__list");
-    Menu.classList.toggle("links-active");
-  }
+const addtoclass = () => {
+  const Menu = document.querySelector(".menu__list");
+  Menu.classList.toggle("links-active");
+};
 </script>
 
 <template>
@@ -108,7 +108,6 @@
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-
     .menu__line {
       display: block;
     }
@@ -135,7 +134,6 @@
         top: 40px;
         right: 45px;
       }
-
       .menu__logo__one {
         display: none;
       }

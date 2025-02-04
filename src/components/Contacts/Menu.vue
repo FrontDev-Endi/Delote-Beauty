@@ -1,37 +1,45 @@
 <script setup>
- const addtoclass = () => {
-    const Menu = document.querySelector(".menu__list");
-    Menu.classList.toggle("links-active");
-  }
+import { ref } from "vue";
+
+const isMenuActive = ref(false);
+
+const toggleMenu = () => {
+  isMenuActive.value = !isMenuActive.value;
+  document.body.style.overflow = isMenuActive.value ? "hidden" : "";
+};
 </script>
 
 <template>
   <div class="menu">
     <img class="menu__logo__two" src="/public/img/logo.png" alt="logo" />
-    <ul class="menu__list">
+    <ul class="menu__list" :class="{ 'links-active': isMenuActive }">
       <img
         src="/public/img/cross.svg"
         class="menu__cross"
         alt="cross"
-        @click="addtoclass()"
+        @click="toggleMenu"
       />
-      <router-link to="/" class="menu__item">
+      <router-link to="/" class="menu__item" @click="toggleMenu">
         <a href="#" class="menu__link"> Home </a>
       </router-link>
-      <router-link to="/masters" class="menu__item">
+      <router-link to="/masters" class="menu__item" @click="toggleMenu">
         <a href="#" class="menu__link"> Masters </a>
       </router-link>
       <li class="menu__item">
-        <a href="#" class="menu__link"> Services </a>
+        <a href="#procedures" class="menu__link" @click="toggleMenu">
+          Services
+        </a>
       </li>
       <img class="menu__logo__one" src="/public/img/logo.png" alt="logo" />
-      <router-link to="/price" class="menu__item">
+      <router-link to="/price" class="menu__item" @click="toggleMenu">
         <a href="#" class="menu__link"> Price </a>
       </router-link>
       <li class="menu__item">
-        <a href="#" class="menu__link"> Our works </a>
+        <a href="#working" class="menu__link" @click="toggleMenu">
+          Our works
+        </a>
       </li>
-      <router-link to="/contacts" class="menu__item">
+      <router-link to="/contacts" class="menu__item" @click="toggleMenu">
         <a href="#" class="menu__link active"> Contacts </a>
       </router-link>
     </ul>
@@ -39,7 +47,7 @@
       src="/public/img/Group 1.svg"
       class="menu__line"
       alt="line"
-      @click="addtoclass()"
+      @click="toggleMenu"
     />
     <hr />
   </div>
@@ -94,7 +102,6 @@
   }
   hr {
     border: 1px solid #fff;
-    width: 1296px;
     width: calc(var(--index) * 40);
     height: 0px;
     opacity: 0.5;
@@ -108,19 +115,17 @@
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-
     .menu__line {
       display: block;
+      cursor: pointer;
     }
     .menu__logo__two {
       display: block;
     }
     .menu__list {
-      position: absolute;
+      position: fixed;
       top: 0;
-      right: 0;
-      visibility: hidden;
-      transform: translateX(100%);
+      right: -230px;
       padding-top: 100px;
       flex-direction: column;
       text-align: center;
@@ -128,14 +133,15 @@
       width: 230px;
       height: 100vh;
       background: #111;
-      transition: 0.5s, visibility 0.5s;
+      transition: 0.5s;
+      overflow-y: auto;
       .menu__cross {
         display: block;
         position: absolute;
         top: 40px;
         right: 45px;
+        cursor: pointer;
       }
-
       .menu__logo__one {
         display: none;
       }
@@ -144,8 +150,7 @@
       display: none;
     }
     .links-active {
-      visibility: visible;
-      transform: translateX(0%);
+      right: 0;
     }
   }
 }
